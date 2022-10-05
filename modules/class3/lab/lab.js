@@ -26,3 +26,5 @@ console.log(price);
 price = price * 20;
 
 console.log(price);
+
+console.log(price)
