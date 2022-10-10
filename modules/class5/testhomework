@@ -1,0 +1,29 @@
+
+
+
+/*sentence2 */
+
+const sentence2 = 'Pages That you vIeW in tHIs WinDOw wont apPeAr in the broWSer history AND thEY wont LEaVE other TRACes';
+
+let sencence2Replace_ALL_A_a = sentence2.replace(/a/ig,'ALPHA');
+
+console.log(`sencence2Replace_ALL_A_a -> ${sencence2Replace_ALL_A_a}\n\n`);
+
+
+/*sentence  3 */
+const sentence3 = "HeAlTh wAs EArlIer said To Be the AbILitY of the bOdY funcTiOnInG WElL.";
+let sentence3Length = sentence3.length;
+console.log(`\nsentenceLength3 -> ${sentence3Length}`)
+
+let result = sentence3.toLowerCase().startsWith('HeAlth'.toLowerCase)
+console.log(`\n\nresult -> ${result}` );
+
+let result2 = sentence3.toLowerCase().startsWith('body'.toLowerCase)
+console.log(`\n\nresult2 -> ${result2}` );
+
+let indexOf_body = sentence3.indexOf('body');
+console.log(`index of body -> ${indexOf_body}`);
+
+let sentence3endswith_l = sentence3.endsWith('l');
+console.log(`sentence 2 ends with 'l' -> ${sentence3endswith_l}`);
+
