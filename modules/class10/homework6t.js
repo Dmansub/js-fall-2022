@@ -24,7 +24,7 @@ let findBaseball2 = favSports_2.includes('BaseBall')
 
 let findBaseball3 = favSports_3.lastIndexOf('Baseball');
 
-if( findBaseball3 >= -2) {
+if( findBaseball3 >= 2) {
     console.log( 'Baseball has second occurrence at index', (findBaseball3) )
 } else {  
     console.log('Baseball is not   present in the given array')
